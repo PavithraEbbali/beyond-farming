@@ -194,7 +194,7 @@ def analyze_export_readiness(request: AnalysisRequest) -> dict:
     }
 
 
-@app.get("/")
+@app.get("/api")
 async def root():
     """Health check endpoint"""
     return {
@@ -204,7 +204,7 @@ async def root():
     }
 
 
-@app.post("/analyze-export-readiness")
+@app.post("/api/analyze-export-readiness")
 async def analyze_export_readiness_endpoint(request: AnalysisRequest):
     """
     Main analysis endpoint for export readiness assessment.
