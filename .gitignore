@@ -1,0 +1,82 @@
+# Frontend Build Output
+dist/
+
+# Frontend Dependencies
+frontend/node_modules/
+frontend/.pnp
+frontend/.pnp.js
+
+# Frontend Testing
+frontend/coverage/
+
+# Frontend IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Frontend Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Backend Virtual Environment
+backend/venv/
+backend/.venv/
+backend/env/
+backend/.env
+
+# Backend Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Backend IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Backend Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment Files (keep .example)
+.env
+.env.local
+
+# Temporary Files
+*.tmp
+*.bak
+.tmp/
+
+# IDE Config
+*.code-workspace
